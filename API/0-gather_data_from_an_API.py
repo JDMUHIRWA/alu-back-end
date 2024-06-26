@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-A Python script that, using a REST API,
+A Python script that, using a REST API, api
 returns information about an employee's TODO list progress.
 """
 if __name__ == "__main__":
@@ -35,3 +35,5 @@ if __name__ == "__main__":
     print(f"Employee {employee_name} is done with tasks({no_of_comptasks}/{totalno_of_task}):")
     for comp_task in completed_tasks:
         print(f"\t {comp_task['title']}")
+
+
